@@ -8,8 +8,6 @@
 
 </div>
 
-<br/>
-
 <div align="center">
 
 · A B O U T ·
