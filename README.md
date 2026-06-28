@@ -1,6 +1,9 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=12,20,24,25,30&text=Pegah%20Salehi&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Applied%20AI%20Engineer%20%C2%B7%20Generative%20AI%20%C2%B7%20Computer%20Vision&descSize=16&descAlignY=57" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0B101A,50:451A87,100:2563EB&text=Pegah%20Salehi&fontSize=44&fontColor=ffffff&fontAlignY=42" />
+
+
 
 <br/>
 
@@ -14,19 +17,16 @@
 
 </div>
 
- 
-🌍  Based in Oslo, Norway
-🎓  PhD in Generative AI
-📜  20 publications · 760 citations · h-index 12
-🌱  Currently exploring MCP, multi-agent orchestration & agentic workflows
+🌎 Based in Oslo, Norway <br/>
+🎓 PhD in Generative AI <br/>
+📜 20 publications · 760 citations · h-index 12 <br/>
+🌱 Currently exploring MCP, multi-agent orchestration & agentic workflows <br/>
 🌐 Portfolio: [pegah.no](https://pegah.no)
-
-<br/>
 
 <div align="center">
   
 · F I N D  M E ·
 
-[Website](https://pegah.no) · [LinkedIn](https://www.linkedin.com/) · [Google Scholar](https://scholar.google.com/)
+[Website](https://pegah.no) · [LinkedIn](https://www.linkedin.com/in/pghsalehi/) · [Google Scholar](https://scholar.google.com/citations?user=0Y4lkuwAAAAJ/)
 
 </div>
