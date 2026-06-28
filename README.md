@@ -14,9 +14,7 @@
 
 </div>
 
-🎓 Background in AI, machine learning, and deep learning  
-🤖 Building with LLMs, RAG pipelines, and applied generative AI  
-👁️ Experienced in computer vision and medical image analysis  
+ 
 🌍  Based in Oslo, Norway
 🎓  PhD in Generative AI
 📜  20 publications · 760 citations · h-index 12
