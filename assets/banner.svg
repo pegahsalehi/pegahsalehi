@@ -1,4 +1,4 @@
-```svg
+
 <svg width="1200" height="145" viewBox="0 0 1200 145" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0">
@@ -77,4 +77,4 @@
   <path d="M0 94 C220 116 390 90 610 105 C820 119 1010 90 1200 111 L1200 145 L0 145 Z" fill="white" fill-opacity="0.22"/>
   <path d="M0 112 C240 90 430 120 670 108 C900 96 1030 119 1200 96 L1200 145 L0 145 Z" fill="white" fill-opacity="0.42"/>
 </svg>
-```
+
