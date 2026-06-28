@@ -1,29 +1,33 @@
-
-<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+```svg
+<svg width="1200" height="175" viewBox="0 0 1200 175" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#0B101A"/>
-      <stop offset="50%" stop-color="#451A87"/>
+      <stop offset="0%" stop-color="#0B1026"/>
+      <stop offset="38%" stop-color="#3B1B83"/>
+      <stop offset="68%" stop-color="#7C3AED"/>
       <stop offset="100%" stop-color="#2563EB"/>
     </linearGradient>
 
-    <linearGradient id="textGradient" x1="420" y1="0" x2="780" y2="0">
-      <stop offset="0%" stop-color="#EDE9FE"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+    <linearGradient id="nameGradient" x1="430" y1="0" x2="770" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
     </linearGradient>
 
     <style>
       .name {
-        font: 700 42px Arial, sans-serif;
-        fill: url(#textGradient);
+        font: 700 34px Arial, sans-serif;
+        fill: url(#nameGradient);
       }
 
       .typing {
-        font: 400 21px 'Fira Code', monospace;
-        fill: #DBEAFE;
+        font: 400 18px 'Fira Code', monospace;
+        fill: #EDE9FE;
+        letter-spacing: 0.5px;
       }
 
       .cursor {
+        font: 400 18px 'Fira Code', monospace;
+        fill: #DBEAFE;
         animation: blink 0.8s infinite;
       }
 
@@ -31,38 +35,48 @@
         0%, 50% { opacity: 1; }
         51%, 100% { opacity: 0; }
       }
-
-      .t1, .t2, .t3, .t4 {
-        opacity: 0;
-        animation: showText 12s infinite;
-      }
-
-      .t1 { animation-delay: 0s; }
-      .t2 { animation-delay: 3s; }
-      .t3 { animation-delay: 6s; }
-      .t4 { animation-delay: 9s; }
-
-      @keyframes showText {
-        0%, 20% { opacity: 1; }
-        25%, 100% { opacity: 0; }
-      }
     </style>
+
+    <clipPath id="clip1">
+      <rect x="410" y="92" width="0" height="28">
+        <animate attributeName="width" values="0;260;260;0;0" keyTimes="0;0.12;0.22;0.25;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip2">
+      <rect x="335" y="92" width="0" height="28">
+        <animate attributeName="width" values="0;0;500;500;0;0" keyTimes="0;0.25;0.37;0.47;0.50;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip3">
+      <rect x="385" y="92" width="0" height="28">
+        <animate attributeName="width" values="0;0;430;430;0;0" keyTimes="0;0.50;0.62;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip4">
+      <rect x="380" y="92" width="0" height="28">
+        <animate attributeName="width" values="0;0;440;440;0" keyTimes="0;0.75;0.87;0.97;1" dur="16s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="220" fill="url(#bg)"/>
+  <rect width="1200" height="175" fill="url(#bg)"/>
 
-  <!-- subtle low wave -->
-  <path d="M0 180 C220 195 360 172 590 183 C820 194 980 173 1200 186 L1200 220 L0 220 Z" fill="white" fill-opacity="0.22"/>
-  <path d="M0 194 C260 178 420 205 680 190 C900 178 1050 198 1200 182 L1200 220 L0 220 Z" fill="white" fill-opacity="0.35"/>
+  <!-- balanced soft wave -->
+  <path d="M0 128 C210 150 390 112 610 132 C820 151 1000 117 1200 137 L1200 175 L0 175 Z" fill="white" fill-opacity="0.22"/>
+  <path d="M0 145 C240 120 430 155 650 138 C870 122 1030 148 1200 122 L1200 175 L0 175 Z" fill="white" fill-opacity="0.42"/>
 
-  <text x="600" y="82" text-anchor="middle" class="name">Pegah Salehi</text>
+  <text x="600" y="68" text-anchor="middle" class="name">Pegah Salehi</text>
 
   <g text-anchor="middle">
-    <text x="600" y="128" class="typing t1">Applied AI Engineer</text>
-    <text x="600" y="128" class="typing t2">LLM &amp; RAG Applications Builder</text>
-    <text x="600" y="128" class="typing t3">Generative AI Engineer</text>
-    <text x="600" y="128" class="typing t4">Computer Vision Engineer</text>
-    <text x="790" y="128" class="typing cursor">|</text>
+    <text x="600" y="112" class="typing" clip-path="url(#clip1)">Applied AI Engineer</text>
+    <text x="600" y="112" class="typing" clip-path="url(#clip2)">LLM &amp; RAG Applications Builder</text>
+    <text x="600" y="112" class="typing" clip-path="url(#clip3)">Generative AI Engineer</text>
+    <text x="600" y="112" class="typing" clip-path="url(#clip4)">Computer Vision Engineer</text>
+
+    <text x="715" y="112" class="cursor">|</text>
   </g>
 </svg>
-
+```
