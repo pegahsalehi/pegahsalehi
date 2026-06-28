@@ -16,8 +16,6 @@
 
 </div>
 
-
-
 🎓 Background in AI, machine learning, and deep learning  
 🤖 Building with LLMs, RAG pipelines, and applied generative AI  
 👁️ Experienced in computer vision and medical image analysis  
@@ -30,8 +28,7 @@
 <br/>
 
 <div align="center">
-
-━━━━━━━━━━━━━━━━━━━━━━  
+  
 · F I N D  M E ·
 
 [Website](https://pegah.no) · [LinkedIn](https://www.linkedin.com/) · [Google Scholar](https://scholar.google.com/)
